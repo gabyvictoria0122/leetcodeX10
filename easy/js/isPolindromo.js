@@ -6,3 +6,25 @@
 
 //  Críterios:
 //    return true or false
+
+/**
+* @param {number} x
+* @return {boolean}
+*/
+
+x = 10
+var isPalindrome = function(x) {
+    let front = x.toString()
+    let reverse = front.split('')
+    reverse.reverse()
+    let compara = reverse.join('')
+
+    if (front == compara){
+        return true
+    } else {
+        return false
+    }
+    
+};
+
+isPalindrome(x)
