@@ -33,7 +33,31 @@ class Solution:
             
         return final.next
 
+# para testar o códifo na IDE 
+def criarListaNode(input):
+    final = atual = ListNode
+    for x in input:
+        atual.next = ListNode(x)
+        atual = atual.next
+    lista_node = final.next
+    return lista_node 
+
+# Essa função pega uma lista node e devolve uma lista comum em python
+def voltaArray(lista_node):
+    lista = []
+    while lista_node is not None:
+        lista.append(lista_node.val)
+        lista_node = lista_node.next
+        print(lista)
+    return lista
+
 
 list1 = [1,2,4]
 list2 = [1,3,4]
+lista_1 = criarListaNode(list1)
+lista_2 = criarListaNode(list2)
+lista_node = Solution().mergeTwoLists(lista_1, lista_2)
+resposta = voltaArray(lista_node)
+assert resposta == [1,1,2,3,4,4]
+
 

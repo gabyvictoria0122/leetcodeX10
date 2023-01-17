@@ -49,4 +49,5 @@ var romanToInt = function(s) {
 
 // para testar o códifo na IDE 
 s = "MCMXCIV"
-console.log(romanToInt(s))
+resultadoEsperado = 1994
+console.log(romanToInt(s), resultadoEsperado)

@@ -30,4 +30,5 @@ var searchInsert = function(nums, target) {
 // para rodar na IDE
 nums = [1,3,5,6]
 target = 7
-console.log(searchInsert(nums, target))
+resultadoEsperado = 4
+console.log(searchInsert(nums, target), resultadoEsperado)
