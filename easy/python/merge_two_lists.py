@@ -7,10 +7,6 @@
 #  Críterios:
 #    Mesclar em ordem crescente.
 
-list1 = [1,2,4]
-list2 = [1,3,4]
-print(list1)
-# Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
@@ -37,9 +33,7 @@ class Solution:
             
         return final.next
 
-test_print = Solution()
-list1 = ListNode()
-list2 = ListNode()
-print(list1)
-mostra = test_print.mergeTwoLists(list1, list2)
-print(mostra.next)
+
+list1 = [1,2,4]
+list2 = [1,3,4]
+

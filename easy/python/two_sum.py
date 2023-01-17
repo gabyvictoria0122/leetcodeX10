@@ -9,9 +9,9 @@
 #   Pode ter apenas uma solução
 #   Resposta em qualquer ordem
 
-List = [2,7,11,15]
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+    # def twoSum(self, nums: List[int], target: int) -> List[int]:
+    def twoSum(nums, target):
         for indice1 in range(len(nums)):
             for indice2 in range(len(nums)):
                 if indice1 == indice2:
@@ -21,3 +21,7 @@ class Solution:
                     result = [indice1, indice2]
                     break
         return result
+
+nums = [2,7,11,15] 
+target = 9
+print(Solution.twoSum(nums, target))

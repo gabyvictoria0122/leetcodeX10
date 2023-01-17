@@ -12,7 +12,6 @@
 * @return {boolean}
 */
 
-x = 10
 var isPalindrome = function(x) {
     let front = x.toString()
     let reverse = front.split('')
@@ -24,7 +23,8 @@ var isPalindrome = function(x) {
     } else {
         return false
     }
-    
 };
 
-isPalindrome(x)
+// para testar o códifo na IDE 
+input = 10
+console.log(isPalindrome(input))
