@@ -47,7 +47,7 @@ var romanToInt = function(s) {
     return soma
 };
 
-// para testar o códifo na IDE 
+// para testar o código na IDE 
 s = "MCMXCIV"
 resultadoEsperado = 1994
 console.log(romanToInt(s), resultadoEsperado)

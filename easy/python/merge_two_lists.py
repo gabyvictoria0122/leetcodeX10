@@ -33,7 +33,7 @@ class Solution:
             
         return final.next
 
-# para testar o códifo na IDE 
+# para testar o código na IDE 
 def criarListaNode(input):
     final = atual = ListNode
     for x in input:

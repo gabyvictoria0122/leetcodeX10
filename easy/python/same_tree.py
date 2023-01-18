@@ -27,7 +27,7 @@ class Solution:
         # Recursividade, função vai ficar repetindo mas com os valores de left e right para sabermos se são iguais. 
         return self.isSameTree(p.left,q.left) and self.isSameTree(p.right,q.right)     
  
-#para testar o códifo na IDE 
+#para testar o código na IDE 
 def criarListaNode(input):
     final = atual = TreeNode
     for x in input:

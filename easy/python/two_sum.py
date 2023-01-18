@@ -22,7 +22,7 @@ class Solution:
                     break
         return result
 
-# para testar o códifo na IDE 
+# para testar o código na IDE 
 nums = [2,7,11,15] 
 target = 9
 resposta_esperada = [1, 0]

@@ -25,7 +25,7 @@ var isPalindrome = function(x) {
     }
 };
 
-// para testar o códifo na IDE 
+// para testar o código na IDE 
 input = 10
 resultadoEsperado = false
 console.log(isPalindrome(input), resultadoEsperado)
